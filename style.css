@@ -1,8 +1,9 @@
 body{
-    background:grey;
+    background:white;
 }
 .information-section {
-    background-color: #f0f0f0;
+    
+    background-color: #add2c9;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -18,3 +19,30 @@ body{
     font-size: 16px;
     color: #666;
 }
+.map iframe {
+    width: 100%;
+    height: 600px;
+}
+h5{
+    border: 1px solid black;
+    padding:10px;
+}
+.navbar {
+    background-image: url('images/navbar.jpg'); /* Set the background image for the navbar */
+    background-size: cover; /* Ensure the background image covers the entire navbar */
+    background-position: center; /* Center the background image */
+    padding: 20px 0; /* Add padding to create space for the background image */
+    
+  }
+  .hero {
+    background-image: url('images/hero-bg.jpg'); /* Set the background image for the hero section */
+    background-size: cover; /* Ensure the background image covers the entire hero section */
+    background-position: center; /* Center the background image */
+    color: white; /* Set text color to white or any other color that contrasts well with the background */
+    text-shadow: 3px 6px 9px rgba(10, 5, 5, 50); /* Adjust shadow properties as needed */
+    padding:100px 0 !important;
+  }
+  
+  .foo{
+    background: linear-gradient(to bottom, #001f3f, #007bff);
+  }
