@@ -3,7 +3,9 @@ body{
 }
 .information-section {
     
-    background-color: #add2c9;
+    background:  #1e90ff;
+    
+
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -17,15 +19,15 @@ body{
 
 .information-content {
     font-size: 16px;
-    color: #666;
+    color: #333;
 }
 .map iframe {
     width: 100%;
     height: 600px;
 }
 h5{
-    border: 1px solid black;
-    padding:10px;
+    border: 3px solid black;
+    padding:5px;
 }
 .navbar {
     background-image: url('images/navbar.jpg'); /* Set the background image for the navbar */
@@ -44,5 +46,8 @@ h5{
   }
   
   .foo{
-    background: linear-gradient(to bottom, #001f3f, #007bff);
+    background: #007bff;
+  }
+  .bg-aquamarine{
+    background: #4682b4;
   }
