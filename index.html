@@ -24,27 +24,32 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Overview</a>
+                        <a class="nav-link" aria-current="page" href="#overview">Overview</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Equipment</a>
+                            <a class="nav-link" href="#location">Location</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#equipment">Equipment</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="#">Management</a>
                         </li>
+                        
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- HERO SECTION-->
         <div class="px-4 py-5 text-center bg-light hero">
-            <h1 class="display-5 fw-bold">How to Start a Gym</h1>
+            <h1 class="display-5 fw-bold" id="overview">How to Start a Gym</h1>
             <div class="col-lg-6 mx-auto">
             <p class="lead mb-4">Welcome to our website, If you're embarking on a journey to establish your own gym, you've come to the right place. Whether you're a seasoned fitness enthusiast or a newcomer, this website offers  resources, from equipment advice to business insights, tailored to meet your needs and concerns. Let this be your guide as you turn your passion for fitness into a thriving business venture.
             </p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Commonly Asked Questions</button>
-            </div>
+                <button type="button" class="btn btn-primary btn-lg px-4 gap-3" >Commonly Asked Questions</button>
+                <a href="#questions"></a>
+                      </div>
             </div>
         </div>
 
@@ -68,7 +73,7 @@
             </div>
         
         <section class="information-section mt-5 mt-5">
-            <h2 class="information-title">1. Choosing The Perfect Location</h2>
+            <h2 class="information-title" id="location">1. Choosing The Perfect Location</h2>
             <p class="information-content">Considering factors like the population, competition, accessibility, parking availiability, and the size and layout of your needs effect a potential location choice.Additionally, evaluate the size and layout of the space you'll need. Consider factors such as the number of members you expect to accommodate, the types of equipment you'll offer, and any additional amenities like group fitness studios or locker rooms. A well-designed layout optimizes space usage and enhances the overall member experience, contributing to the success of your gym. By carefully considering these factors, you can make an informed decision that sets your gym up for success in its chosen location.</p>
         </section>
          </div>
@@ -80,10 +85,10 @@
             <div class="container py-5">
             <div class="row">
                 <div class="col-sm-8">
-                <img src="images/Equipment.jpeg" class="img-fluid" />
+                <img src="images/Equipment.jpeg" class="img-fluid rounded" />
                 </div>
                 <div class="col-sm-4 pt-5">
-                <h2 class="fw-bold">Equipment Selection</h2>
+                <h2 class="fw-bold" id="equipment">Equipment Selection</h2>
                 <ol>
                 <li>
                 <p>
@@ -98,12 +103,70 @@
                 </p>
             </li>
         </ol>
-                 <i class="bi bi-chevron-right"></i><a href="https://www.technogym.com/en-US/category/all-exercise-equipment/"target="_blank"</a>
+                 <i class="bi bi-chevron-right"></i><a href="https://www.technogym.com/en-US/category/all-exercise-equipment/"target="_blank"></a>
                         <button type="button" class="btn btn-lg btn-dark">Equipment Examples
                 </button>
                 </div>
             </div>
             </div>
         </div>
+        <!-- TABS SECTION START -->
+<div class="questions">
+    <div class="container py-5 questions" id="questions" >
+        
+        <div class="row py-5">
+            <div class="row">
+                <h1 class="questions">Commonly Asked Questions</h1>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">#1 Question</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">#2 Question</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"># 3 Question</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="essencial-tab" data-bs-toggle="tab" data-bs-target="#essencial-tab-pane" type="button" role="tab" aria-controls="essencial-tab-pane" aria-selected="false">Essencial Question</button>                 
+                    </li>                 
+                
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                        <h4 class="pt-5 fw-bold" id="about">What Membership Options Do You Offer?</h4>
+                        <p>
+                            Potential gym-goers often inquire about the various membership plans available, including their durations, features, and costs. Providing clear details about your membership options can help visitors make informed decisions about which plan suits their needs best.
+                        </p>
+                
+                        
+                    </div>
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                        <h4 class="pt-5 fw-bold" id="about">What Equipment and Facilities Do You Have?</h4>
+                            <p>
+                                Prospective members typically want to know about the equipment, amenities, and facilities available at your gym. Highlighting the range of cardio machines, free weights, strength training equipment, classes, showers, and any additional features can help them assess if your gym meets their fitness goals and preferences.
+                            </p>
+                    </div>
+                    <div class="tab-pane fade" id="essencial-tab-pane" role="tabpanel" aria-labelledby="essencial-tab" tabindex="0">
+                        <h4 class="pt-5 fw-bold" id="about">Essencial question</h4>
+                            <p>
+                                How are you going to make the majority of your money, memberships, classes, trainers and which of those incomes should you focus on the most when developing?
+                            </p>
+                    </div>
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                        <h4 class="pt-5 fw-bold" id="about">What Are Your Operating Hours?</h4>
+                            <p>
+                                Knowing your gym's operating hours is crucial for individuals planning their workout schedules. Clearly listing your opening and closing times for weekdays, weekends, and holidays can assist potential members in organizing their fitness routines effectively. Additionally, providing information about any special hours or holiday closures can prevent misunderstandings later on.
+                            </p>
+                    
+                           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- TABS SECTION END -->
+   
    </body>
 </html>
