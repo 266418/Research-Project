@@ -33,6 +33,9 @@ body{
     padding: 20px 0; /* Add padding to create space for the background image */
     
   }
+  .navbar-nav li{
+    text-align: right;
+  }
   .hero {
     background-image: url('images/hero-bg.jpg'); /* Set the background image for the hero section */
     background-size: cover; /* Ensure the background image covers the entire hero section */
